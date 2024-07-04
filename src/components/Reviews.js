@@ -95,7 +95,7 @@ const Reviews = ({id, prevRating, userRated}) => {
         {reviewsLoading ? 
             <div className='mt-6 flex justify-center'><ThreeDots height={10} color="white" /></div>
         :
-        <div className='mt-4'>
+        <div className='mt-4 '>
             {data.map((e, i) => {
                 return(
                     <div className=' p-2 w-full border-b header bg-opacity-50 border-gray-600 mt-2' key={i}>

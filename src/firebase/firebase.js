@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore, collection} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_6r-YtFwr8o8v0SLZ42MmpTEENUVdx_A",
+  apiKey: process.env.apiKey,
   authDomain: "filmflix-18967.firebaseapp.com",
   projectId: "filmflix-18967",
   storageBucket: "filmflix-18967.appspot.com",
